@@ -4,7 +4,7 @@ function Inicio({ setSeccionActual }) {
   return (
     <main className="seccion-inicio">
       <div className="banner-hotel">
-        <h1>Bienvenidos a Hotel Cordillera</h1>
+        <h1>Bienvenidos a Hotel Saelandia</h1>
         <p>Tu refugio de descanso y tranquilidad en el norte argentino.</p>
         <button 
           className="btn-reservar-ahora" 
