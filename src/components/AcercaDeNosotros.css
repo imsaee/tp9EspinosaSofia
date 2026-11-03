@@ -1,0 +1,45 @@
+.seccion-acerca {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.seccion-acerca h1 {
+  color: #4a2c5a;
+  font-size: 2.1rem;
+  margin-bottom: 12px;
+}
+
+.descripcion-acerca {
+  color: #634f6b;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.bloques-acerca {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  text-align: left;
+}
+
+.bloque {
+  background-color: #fbf8fc;
+  border-left: 4px solid #8e659b;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.bloque h2 {
+  color: #5c3d75;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.bloque p {
+  color: #574460;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
